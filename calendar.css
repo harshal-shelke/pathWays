@@ -1,0 +1,141 @@
+.calendar-pic {
+    margin-left: 50px;
+}
+
+.calendar-s1 {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.search-container div {
+    margin-top: 75px;
+}
+
+.search-container input {
+    width: 200px;
+}
+
+body {
+}
+
+header {
+	text-align: center;
+}
+
+#calendar {
+	width: 100%;	
+}
+
+#calendar a {
+	color: #384E77;
+	text-decoration: none;
+}
+
+#calendar ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	width: 100%;
+}
+
+#calendar li {
+	display: block;
+	float: left;
+	width:14.342%;
+	padding: 5px;
+	box-sizing:border-box;
+	border: 1px solid #ccc;
+	margin-right: -1px;
+	margin-bottom: -1px;
+}
+
+#calendar ul.weekdays {
+	height: 40px;
+	background: #384E77;
+}
+
+#calendar ul.weekdays li {
+	text-align: center;
+	text-transform: uppercase;
+	line-height: 20px;
+	border: none !important;
+	padding: 10px 6px;
+	color: #fff;
+	font-size: 13px;
+}
+
+#calendar .days li {
+	height: 180px;
+}
+
+#calendar .days li:hover {
+}
+
+#calendar .date {
+	text-align: center;
+	margin-bottom: 5px;
+	padding: 4px;
+	background: #333;
+	color: #fff;
+	width: 20px;
+	border-radius: 50%;
+	float: right;
+}
+
+#calendar .event {
+	clear: both;
+	display: block;
+	font-size: 13px;
+	border-radius: 4px;
+	padding: 5px;
+	margin-top: 40px;
+	margin-bottom: 5px;
+	line-height: 14px;
+	background: #e4ecf2;
+	border: 1px solid #b5c7dc;
+	color: #495c92;
+	text-decoration: none;
+}
+
+#calendar .event:hover {
+    cursor: pointer;
+    background: #dbe3e9;
+    transition: 0.2s;
+}
+
+#calendar .event-desc {
+	color: #000000;
+	margin: 3px 0 7px 0;
+	text-decoration: none;	
+    text-align: center;
+
+}
+
+#calendar .other-month {
+	background: #f5f5f5;
+	color: #666;
+}
+
+/* ============================
+				Mobile Responsiveness
+   ============================*/
+
+
+@media(max-width: 768px) {
+
+	#calendar .weekdays, #calendar .other-month {
+		display: none;
+	}
+
+	#calendar li {
+		height: auto !important;
+		border: 1px solid #ededed;
+		width: 100%;
+		padding: 10px;
+		margin-bottom: -1px;
+	}
+
+	#calendar .date {
+		float: none;
+	}
+}

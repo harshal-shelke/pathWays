@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="resume.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <nav class="navbar" style="position:absolute">
+        <div class="title"><a href="app.html">PATH<b class="blu">MY</b>WAY</a></div>
+        <ul class="navtools">
+          <li class="nav-item base first"><a href="./app.html">Home</a></li>
+          <li class="nav-item"><a href="./mentors.html">Mentors</a></li>
+          <li class="nav-item"><a href="./scholarships.html">Scholarships</a></li>
+          <li class="nav-item"><a href="./resume.html">Resume</a></li>
+          <li class="nav-item last"><a href="./calendar.html">Calendar</a></li>
+        </ul>
+        <div class="profile-block">
+            <a class="profile-iconbox" href="./app.html"><img class="profile-icon" src="pictures/profile.png"></a>
+        </div>
+    </nav>
+
+    <div class="container">
+        <h1>Upload Resume Here:</h1>
+        <div class="resume-content">
+            <div class="upload-container">
+                <input type="file" id="fileInput" class="file-input" accept=".txt, .pdf, .docx">
+                <label for="fileInput" class="upload-button">
+                  Upload a .txt File
+                </label>
+                <p id="fileStatus" class="file-status"></p>
+            </div>
+
+            <div class="read-container">
+                <h3 class="readfile-button"><a onclick="readFile()">Read File:</a></h3>
+            <p id="output"></p> 
+            </div>
+        </div>
+    </div>
+    
+    <script src="resume.js"></script>
+</body>
+</html>
+

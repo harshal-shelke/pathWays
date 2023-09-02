@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="login.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login | PathMyWays</title>
+</head>
+<body>
+    <nav class="navbar" style="position: absolute;">
+        <div class="title"><a href="index.html">PATH<b class="blu">MY</b>WAY</a></div>
+        <ul class="navtools">
+          <li class="nav-item base first"><a href="./index.html">Home</a></li>
+          <li class="nav-item"><a href="./features.html">Features</a></li>
+          <li class="nav-item"><a href="./mission">Mission</a></li>
+          <li class="nav-item last"><a href="./contact">Contact</a></li>
+        </ul>
+        <div class="login-block">
+            <li class="nav-item login first"><a href="./login.html">Login</a></li>
+            <li class="nav-item signup last"><a href="./signup.html">Sign Up</a></li>
+        </div>
+    </nav>
+
+    <div class="container">
+        <form class="form" id="login">
+            <h1 class="form__title">Login</h1>
+            <div class="form__message form__message--error" id="generalErrorMessage"></div>
+            <div class="form__input-group">
+                <input type="text" class="form__input login__input" autofocus placeholder="Username or email">
+                <div class="form__input-error-message"></div>
+            </div>
+            <div class="form__input-group">
+                <input type="password" class="form__input login__input" autofocus placeholder="Password">
+                <div class="form__input-error-message"></div>
+            </div>
+            <button class="form__button" type="submit">Continue</button>
+            <p class="form__text">
+                <a href="#" class="form__link">Forgot your password?</a>
+            </p>
+            <p class="form__text">
+                <a class="form__link" href="signup.html" id="linkCreateAccount">Don't have an account? Create account</a>
+            </p>
+        </form>
+    </div>
+
+
+    <script src="login.js"></script>
+</body>
+</html>

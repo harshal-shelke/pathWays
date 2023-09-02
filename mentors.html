@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styling.css">
+    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="mentors.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <nav class="navbar" style="position:absolute">
+        <div class="title"><a href="app.html">PATH<b class="blu">MY</b>WAY</a></div>
+        <ul class="navtools">
+          <li class="nav-item base first"><a href="./app.html">Home</a></li>
+          <li class="nav-item"><a href="./mentors.html">Mentors</a></li>
+          <li class="nav-item"><a href="./scholarships.html">Scholarships</a></li>
+          <li class="nav-item"><a href="./resume.html">Resume</a></li>
+          <li class="nav-item last"><a href="./calendar.html">Calendar</a></li>
+        </ul>
+        <div class="profile-block">
+            <a class="profile-iconbox" href="./app.html"><img class="profile-icon" src="pictures/profile.png"></a>
+        </div>
+    </nav>
+
+    <div class="homepage mentors-hp">
+          <div class="homepage-content">
+            <h1 class = "homepage-text">READY TO FIND YOUR <b>PERSONALIZED</b> MENTOR?</h1>
+            <h2 class = "homepage-subtext">Our mentors are driven to help you succeed in your college journey! We help you find
+                the most suitable, professional, private mentor in your area, based on your demographics, major and more!
+            </h2>
+            </div>
+
+          <img class = "hp-pic mentor-pic" src="./pictures/mentor-pic.webp"/>
+    </div>
+
+    <hr class="line-break" style="margin-bottom: 200px;">
+
+    <div class="mentors-s1">
+        <div class="mentors-s1-content">
+            <h1>Search for your Personalized Tutor:</h1>
+            <div class="search-container">
+                <input type="text" id="searchUni" placeholder="Enter University"> <br>
+                <input type="text" id="searchDept" placeholder="Enter Department"> <br>
+                <button onclick="search()" class="search-button">Search for a Mentor:</button> <br>
+                <p id="searchOut"></p> <br>
+            </div>
+        </div>
+    </div>
+
+<hr class="line-break" style="margin-top: 200px;">
+
+    <div class="mentors-s1" style="margin-top: 200px;">
+        <div class="mentors-s1-content">
+            <h1>Become a Mentor Today:</h1>
+            <div class="search-container">
+                <input type="text" id="mentorName" placeholder="Enter Name"> <br>
+                <input type="text" id="mentorUni" placeholder="Enter University"> <br>
+                <input type="text" id="mentorDept" placeholder="Enter Department"> <br>
+                <input type="text" id="mentorEmail" placeholder="Enter Email"> <br>
+                <button onclick="mentor()" class="search-button">Become a mentor</button> <br>
+                <p id="mentorOut"></p> <br>
+            </div>
+        </div>
+    </div>
+
+
+
+    <hr class = "line-break" style="margin-top: 200px"/>
+
+    <div class="footer">
+        <div class="title" style="margin-bottom: 10px;"><a href="app.html">PATH<b class="blu">MY</b>WAY</a></div>
+    </div>
+
+
+    <script src="mentors.js"></script>
+</body>
+</html>
