@@ -1,7 +1,6 @@
 # Path My Way
 High School to College Helper for First-Gen Low-Income Students
 
-Pitch and Demo: https://youtu.be/soOoCVbMh28
 
 [Jump to user guide](#user-guide)
 
