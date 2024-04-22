@@ -51,10 +51,7 @@ You will start on the home page. Navigate to our Mission page to see our mission
 1. **Mentorship program**: If you are a mentor, please fill out the form to enter yourself as a mentor, then click the "Become a mentor" button. If you are seeking mentorship, please search for a mentor by inputting a university and a department (case insensitive). Click the "Search for a mentor" button to find mentors that match your university and/or department.
 2. **Scholarship Filtering**: If you would like to filter through our database of scholarships, please enter some keywords in the "Filter scholarships..." box, such as "international" or "domestic" or "female" in order to refine your search of scholarships to ones that will meet your specific needs or demographics.
 3. **Application Deadlines**: If you would like to see the various deadlines for a certain school, please enter the name of the school in the "Filter deadlines by college..." box, such as "Cornell" or "MIT". This will refine your search to only show the college deadlines that you would like. If you would like to refine your search by something different, such as "FAFSA" if you want to see all FAFSA deadlines, not school specific, you can do that as well.
-4. **Resume Helper**: Please transfer your resume to a .txt file, as Word Documents or PDFs have formatting characters that make it hard to read. Then upload your document, and our website will give you some suggestions for some weak words that you can change. The website will also give some suggestions on stronger words.
-
-### Setup and Execution Instructions
-We have used the pages feature of GitHub. You can navigate to https://ananyabhatia.github.io/PathMyWay in order to see our prototype. No download or setup needed, just click on the link. 
+4. **Resume Helper**: Please transfer your resume to a .txt file, as Word Documents or PDFs have formatting characters that make it hard to read. Then upload your document.
 
 ### Technologies and Tools used
 Technologies and tools used are VS Code, ChatGPT, and GeeksForGeeks for coding/hypothetical data generation. Data such as scholarship lists and mentors are purely fictional and hypothetical for this situation. 
